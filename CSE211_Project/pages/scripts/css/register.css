@@ -1,0 +1,125 @@
+/* register.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Off-white background */
+    color: #333; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333; /* Dark gray header */
+    color: #fff; /* White text */
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; /* White text for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 400px;
+    margin-top: 60px; /* Space for the fixed header */
+}
+
+h1 {
+    color: #333; /* Dark gray heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555; /* Medium gray text for labels */
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input:focus {
+    border-color: #333; /* Dark gray border on focus */
+    outline: none;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333; /* Dark gray button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #555; /* Lighter gray on hover */
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+    color: #555; /* Medium gray text */
+}
+
+p a {
+    color: #333; /* Dark gray text for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+footer {
+    background-color: #333; /* Dark gray footer */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Collection - Egyptian Local Brand</title>
+    <link rel="stylesheet" href="./scripts/css/womens.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="./images/locally.png" alt="Brand Logo">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./mens.html">Men's</a></li>
+                <li><a href="./womens.html">Women's</a></li>
+                <li><a href="./kids.html">Kids'</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./cart.html"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+                <li><a href="./student_grade_calculator.html">Grade Calculator</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Women's Collection</h1>
+        <div class="product-grid">
+            <div class="product">
+                <img src="./images/women-jacket.jpeg" alt="Women's Jacket">
+                <h3>Women's Jacket</h3>
+                <p>$55.00</p>
+                <button onclick="addToCart({ name: 'Women\'s Jacket', price: 55.00, image: '../images/women/jacket.jpg' })">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="./images/women-pants.jpeg" alt="Women's Pants">
+                <h3>Women's Pants</h3>
+                <p>$35.00</p>
+                <button onclick="addToCart({ name: 'Women\'s Pants', price: 35.00, image: '../images/women/pants.jpg' })">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="./images/women-hoodie.jpg" alt="Women's Hoodie">
+                <h3>Women's Hoodie</h3>
+                <p>$45.00</p>
+                <button onclick="addToCart({ name: 'Women\'s Hoodie', price: 45.00, image: '../images/women/hoodie.jpg' })">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="./images/women-t-shirt.jpeg" alt="Women's T-Shirt">
+                <h3>Women's T-Shirt</h3>
+                <p>$22.00</p>
+                <button onclick="addToCart({ name: 'Women\'s T-Shirt', price: 22.00, image: '../images/women/tshirt.jpg' })">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Egyptian Local Brand. All rights reserved.</p>
+    </footer>
+    <script src="./scripts/js/cart.js"></script> <!-- Link to Cart JavaScript -->
+</body>
+</html>
